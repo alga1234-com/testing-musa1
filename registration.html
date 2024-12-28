@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <title>Link CSS to HTML</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i">
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>MWANGAZA</h1>
+            </div>
+            <div class="content">
+                <a href="login.php">Login</a>
+                <a href="register.php">Register</a>
+                <form>
+                    <div class="input-group">
+                      <label for="fname">Firstname</label>
+                      <input
+                        id="fname"
+                        name="fname"
+                        placeholder="Enter firstname"
+                        required="required"
+                      />
+                    </div>
+                    <div class="input-group">
+                      <label for="lname">Lastname</label>
+                      <input
+                        id="lname"
+                        name="lname"
+                        placeholder="Enter lastname"
+                        required="required"
+                      />
+                    </div>
+                    <div class="input-group">
+                      <label for="email">Email</label>
+                      <input
+                        id="email"
+                        type="email"
+                        name="email"
+                        placeholder="Enter your email"
+                      />
+                    </div>
+                    <div class="input-group">
+                      <label>Country</label>
+                      <select name="COUNTRY" id="DISTRICT" required="required">
+                        <option value="Uganda" selected="selected">Select country</option>
+                        <option value="Uganda">KASESE</option>
+                        <option value="Uganda">KAMPALA</option>
+                        <option value="Uganda">FORT PORTAL</option>
+                        <option value="Uganda">HOIMA</option>
+                        <option value="Uganda">MASINDI</option>
+                        <option value="Uganda">MUBENDE</option>
+                        <option value="Uganda">MBARARA</option>
+                        <option value="Uganda">MASAKA</option>
+                        <option value="Uganda">MADI OKOLO</option>
+                        <option value="Uganda">ARUA</option>
+                        <option value="Uganda">AMURATA</option>
+                        <option value="Uganda">AMURU</option>
+                        <option value="Uganda">AJUMAN</option>
+                        <option value="Uganda">SOROTI</option>
+                  
+                      </select>
+                    </div>
+                    <div class="input-group">
+                      <label for="message">Any message?</label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Optional"
+                      ></textarea>
+                    </div>
+                    <div class="submit-group">
+                      <button type="submit">Submit form</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </body>
+</head>
+</html>
